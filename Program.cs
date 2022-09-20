@@ -1,5 +1,6 @@
 ﻿Console.Clear();
 
+Console.WriteLine("Итог- массив из строк длина которых меньше либо равна 3:");
 void methodArray (string [] array){
      string[] newarr = new string[array.Length];
      for (int i=0; i<array.Length; i++){      
@@ -19,6 +20,6 @@ void Print(string [] Array){
 }
 
 string [] array = {"hello", "2", "world", ":-)"};
-
 methodArray(array);
+Console.WriteLine("Исходный массив:");
 Print(array);
